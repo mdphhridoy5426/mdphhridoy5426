@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #eae0e9;
+}
+
+.intro{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#name {
+    color: rgb(238, 139, 9);
+    
+}
+
+.intro h1{
+    font-size: 50px;
+    color: #44b71b;
+    margin-bottom: 20px;
+}
+
+
+
+.intro p{
+    color: rgb(112, 82, 219);
+    line-height: 30px;
+    font-weight: 700;
+}
+
+
+.slider{
+     overflow: hidden ;  
+}
+.slider {
+    position: relative;
+    width: 500%;
+    margin-left: 0%;
+    left: 0;
+    animation: 5s slider infinite;
+}
+.slider img{
+    height: 1000px;
+    width:700px;
+    display: flex;
+}
+.slider img{
+    float: left;
+    width: 20%;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -200% ;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+#edu b1 b{
+    color: rgb(44, 40, 39);
+    background-color: rgb(9, 200, 233);
+    font-size:xx-large;
+}
+#resume b{
+    font-size: xx-large;
+    color: rgb(44, 40, 39);
+    background-color: rgb(9, 200, 233);
+}
+#skill b{
+    color: rgb(44, 40, 39);
+    background-color: rgb(9, 200, 233);
+    font-size:xx-large;
+}
+#list1 li{
+    margin-left: 2%;
+    font-size:x-large;
+    font: bolder;
+    list-style-type: square;
+
+}
+#work b{
+    color: rgb(44, 40, 39);
+    background-color: rgb(9, 200, 233);
+    font-size:xx-large;
+    
+}
+#contact b{
+    color: rgb(44, 40, 39);
+    background-color: rgb(9, 200, 233);
+    font-size:xx-large;
+    
+}
+#cont2 ul li {
+    margin-left: 2%;
+    font-size:larger;
+    font: bolder;
+    list-style-type:circle ;
+   
+}
